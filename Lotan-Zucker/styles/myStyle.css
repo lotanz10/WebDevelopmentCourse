@@ -1,0 +1,64 @@
+body {
+    direction: rtl;
+    background-image: url(../images/1.jpg);
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+#conteiner {
+    width: 960px;
+    margin: 0 auto;
+
+
+}
+#first:first-letter {
+    color: forestgreen;
+    font-size: 28pt;
+}
+#second::first-letter {
+    color: forestgreen;
+    font-size: 28pt;
+}#third {
+     margin-top: 30px;
+ }
+#number4 {
+    margin-top: 30px;
+}
+#life {
+    color: red;
+    text-decoration: underline;
+    
+}
+#education {
+    color: red;
+    text-decoration: underline;
+}
+#job {
+    color: red;
+    text-decoration: underline;
+}
+#hobbies {
+    color: red;
+    text-decoration: underline;
+}
+#ways {
+    color: red;
+    text-decoration: underline;
+}
+#life:hover {
+    outline: 5px dashed #FFFFFF;
+    
+}
+#ways:hover {
+    outline: 5px dashed #FFFFFF;
+}
+#hobbies:hover {
+    outline: 5px dashed #FFFFFF;
+}
+#job:hover {
+    outline: 5px dashed #FFFFFF;
+}
+#education:hover {
+    outline: 5px dashed #FFFFFF;
+}
